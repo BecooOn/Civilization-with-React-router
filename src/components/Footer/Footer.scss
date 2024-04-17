@@ -1,0 +1,12 @@
+@import "../../scss/_variables.scss";
+@import "../../scss/_mixins.scss";
+.footer{
+    @include dFlex(center, center, 2rem);
+    background-color: $primary-color;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    // position: fixed;
+    // bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+@import "../../scss/variables";
+@import "../../scss/mixins";
+.not-found {
+  @include dFlex(center, center, 2rem);
+//   border: 5px solid fuchsia;
+  height: 100%;
+  position: relative;
+  padding: 3rem;
+  & .notfound-img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+  }
+  &.notfound-btn-back {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    z-index: 1;
+  }
+  &.notfound-btn-home {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    z-index: 1;
+  }
+}

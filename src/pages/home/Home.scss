@@ -1,0 +1,22 @@
+//*****************************************************
+//*   HOME PAGE
+//*****************************************************
+@import "../../scss/variables";
+@import "../../scss/mixins";
+@import "../../scss/responsive";
+
+.home {
+  @include dFlex(center, center, 2px);
+  background-color: grayscale($color: #00000075);
+  color: $secondary-color;
+  & .header {
+    color: aqua;
+    padding: 2rem 2rem 0 2rem;
+    text-align: center;
+  }
+  & .parag {
+    padding: 2.1rem;
+    color: greenyellow;
+    font-size: 1.8rem;
+  }
+}

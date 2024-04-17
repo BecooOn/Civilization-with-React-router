@@ -1,0 +1,11 @@
+@import "../src/scss/reset";
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../public/img/world.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
