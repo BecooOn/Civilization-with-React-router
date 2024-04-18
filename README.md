@@ -1,5 +1,6 @@
 ## Civilizations with react router
 Bu proje, React kullanarak geliştirilen bir uygarlıklar tarihi projesidir. Kullanıcılar, ilgili uygarlık bilgilerine tek tek ulaşabilirler
+- https://civilizations-with-react-router.netlify.app/
 
 ## 🚀 Başlarken
 - Projeyi yerel ortamınıza klonlayarak başlayabilirsiniz.
