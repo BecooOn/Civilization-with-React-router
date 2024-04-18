@@ -1,30 +1,30 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+## Civilizations with react router
+Bu proje, React kullanarak geliştirilen bir uygarlıklar tarihi projesidir. Kullanıcılar, ilgili uygarlık bilgilerine tek tek ulaşabilirler
 
-# Project-006 : Sass Portfolio with React Router (RP-06)
+## 🚀 Başlarken
+- Projeyi yerel ortamınıza klonlayarak başlayabilirsiniz.
+- git clone https://github.com/BecooOn/Civilization-with-React-router.git
 
-## Description
+## Proje klasörüne gidin ve bağımlılıkları yükleyin:
+```yarn install```
 
-Project aims to create a Sass Portfolio with Router.
+## Projeyi başlatın:
+```yarn start```
 
-## Problem Statement
-
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
-
-## Project Skeleton
+## Proje iskeleti:
 
 ```
-006 - Sass Portfolio with React Router (folder)
+006 - Civilizations with React Router
 |
-|----readme.md         # Given to the students (Definition of the project)
+|----readme.md 
 SOLUTION
 ├── public
 │     └── index.html
+│     └── img
+│
 ├── src
 │   ├── App.js
 │   ├── App.scss
-│   ├── assets
-│   │   └── img
 │   ├── components
 │   │   ├── Error
 │   │   │   ├── NotFound.css
@@ -37,76 +37,46 @@ SOLUTION
 │   │   │   └── Navbar.scss
 │   │   └── ProjectCards.jsx
 │   ├── helper
-│   │   └── imageData.js
+│   │   └── civilizations.js
 │   ├── index.css
 │   ├── index.js
 │   ├── pages
-│   │   ├── about
-│   │   │   ├── About.jsx
-│   │   │   └── About.scss
+│   │   ├── civilizations
+│   │   │   ├── Civilizations.jsx
+│   │   │   └── Civilizations.scss
+│   │   ├── civilizationsdetail
+│   │   │   ├── CivilizationsDetail.jsx
+│   │       └── CivilizationsDetail.scss
 │   │   ├── contact
 │   │   │   ├── Contact.jsx
 │   │   │   └── Contact.scss
-│   │   ├── home
+│   │   └── home
 │   │   │   ├── Home.jsx
 │   │   │   └── Home.scss
-│   │   └── projects
-│   │       ├── Projects.jsx
-│   │       └── Projects.scss
 │   ├── router
-│   │   └── router.js
+│   │   └── AppRouter.jsx
 │   └── scss
 │       ├── _mixins.scss
 │       ├── _reset.scss
+│       ├── _responsive.scss
 │       └── _variables.scss
 ├── package.json
 └── yarn.lock
 ```
 
-## Expected Outcome
+## 🛠️ Kullanılan Teknolojiler
+- React: Kullanıcı arayüzü ve bileşen tabanlı geliştirme için.
+- Sass: CSS bilgilerini projeye entegre etmek için.
+- Bootstrap: Hızlı ve duyarlı tasarımlar için UI bileşenleri.
+- React Icons: İkon bileşenlerini projeye entegre etmek için.
+- React Router: Sayfa yönlendirmesi ve gezinme işlevselliği için.
 
-![Sass Portfolio with React Router](sass.gif)
+## 📦 Özellikler
+- Tarihsel süreç içerisinde uygarlıkların tarihi.
+- Kullanıcılar, ilgili uygarlık bilgilerine tek tek ulaşabilirler.
+- Kullanıcılar, uygarlık bilgilerine ait resimleri görebilirler.
 
-## Objective
-
-Build a Sass Portfolio with using ReactJS, react-router and sass.
-
-### At the end of the project, following topics are to be covered;
-
-- HTML
-
-- CSS
-
-- JS
-
-- ReactJS
-
-### At the end of the project, students will be able to;
-
-- Improve coding skills within HTML & CSS & JS & ReactJS.
-
-- Use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Steps to Solution
-
-- Step 1: Create React App using `npx create-react-app sass-portfolio-router`.
-
-- Step 2: Convert the provided [template](./template) into a React project.
-
-- Step 3: Build Project with using ReactJS, react-router and sass.
-
-- Step 4: Push your application into your own public repo on Github.
-
-- Step 5: Add project gif to your project and README.md file.
-
-- Note: The solution codes will be shared.
-
-## Notes
-
-- You can add additional functionalities and design to your app.
-
-## Demo
-
-<a href="https://react-router-sass-project.vercel.app/">Sass Portfolio with React Router</a>
-
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
+## 👥 Katkıda Bulunmak için;
+Proje deposunu forklayın.
+Yeni özellikler ekleyin veya hataları düzeltin.
+Değişikliklerinizi bir pull talebi olarak gönderin.
