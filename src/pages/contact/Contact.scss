@@ -1,0 +1,21 @@
+@import "../../scss/variables";
+@import "../../scss/mixins";
+@import "../../scss/responsive";
+.contact {
+    @include dFlex(center, center, 2rem);
+    flex-direction: column;
+    background-color: grayscale($color: #00000075);
+    color: $secondary-color;
+    height: 100vh;
+  }
+.contact-href {
+  @include dFlex(center, center, 2rem);
+  color: $secondary-color;
+  a{
+    font-size: 4rem;
+    transition: transform 0.3s;
+    &:hover{
+        transform: scale(1.1);
+    }
+  }
+}

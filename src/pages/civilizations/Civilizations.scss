@@ -1,0 +1,32 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+.card-div {
+  background-color: grayscale($color: #00000075);
+  @include dFlex(center, center, 2rem);
+  padding: 2rem;
+  text-align: center;
+}
+.card {
+  //   border: 1px solid $secondary-color;
+  box-shadow: 0 0 3px $secondary-color;
+  overflow: hidden;
+  .card-img {
+    width: 18rem;
+    height: 16rem;
+    transition: 0.5s;
+    &:hover {
+      transform: scale(1.1);
+      //   cursor: pointer;
+    }
+  }
+//   .card-title {
+//     border-top:2px solid orange;
+//     border-bottom:2px solid orange;
+//     color: #2fff78;
+//   }
+  //   .card-btn {
+  //     &:hover {
+  //       background-color: $secondary-color;
+  //     }
+  //   }
+}

@@ -8,7 +8,7 @@ const civilizations = [
     important_sites: ["Pyramids", "Nile River", "Luxor Temple"],
     info: "Ancient Egypt has been a significant civilization throughout history. It has made important advancements in architecture, mathematics, medicine, and art.",
     image:
-      "https://pixabay.com/tr/illustrations/m%C4%B1s%C4%B1rl%C4%B1-tasar%C4%B1m-adam-kad%C4%B1n-rahip-1822015/",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/1280px-All_Gizah_Pyramids.jpg",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const civilizations = [
     important_sites: ["Acropolis", "Olympia", "Delphi"],
     info: "Ancient Greece has hosted many important cultural and intellectual developments such as democracy, philosophy, theater, and the Olympic Games.",
     image:
-      "https://pixabay.com/tr/illustrations/adam-yunan-mitolojisi-mitoloji-din-8679501/",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Acropolis.JPG/1280px-Acropolis.JPG",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const civilizations = [
     important_sites: ["Colosseum", "Roman Forum", "Pantheon"],
     info: "The Roman Empire has controlled a significant portion of Europe, the Mediterranean, and the Middle East throughout history. It has left a significant impact with Roman law, architecture, and military techniques.",
     image:
-      "https://pixabay.com/tr/vectors/roma-kent-harita-hat-sanat%C4%B1-antik-5783047/",
+      "https://upload.wikimedia.org/wikipedia/commons/1/12/Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_The_Death_of_Caesar_-_Walters_37884.jpg",
   },
   {
     id: 4,
@@ -85,7 +85,7 @@ const civilizations = [
     important_sites: ["Chichen Itza Pyramid", "Palenque", "Tikal"],
     info: "The Maya civilization flourished in the rainforests of Central America. They made significant advancements in mathematics, astronomy, and writing.",
     image:
-      "https://pixabay.com/tr/photos/meksika-chichen-itz%C3%A1-piramit-mimari-3774303/",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Templo_de_los_Guerreros.jpg/1280px-Templo_de_los_Guerreros.jpg",
   },
 ];
 

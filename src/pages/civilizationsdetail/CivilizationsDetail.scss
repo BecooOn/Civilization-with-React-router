@@ -1,0 +1,57 @@
+@import "../../scss/variables";
+@import "../../scss/mixins";
+@import "../../scss/responsive";
+.civilization {
+  background-color: grayscale($color: #00000075);
+  height: 100vh;
+  color: $secondary-color;
+}
+.civilization-info {
+  @include dFlex(center, center, 3rem);
+  color: greenyellow;
+  padding: 8rem;
+  //   height: 100vh;
+  font-size: 1.2rem;
+  .civilization-img {
+    width: 18rem;
+    height: 15rem;
+    box-shadow: 0 0 5px $secondary-color;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    &:hover {
+      transform: scale(1.5);
+      cursor: pointer;
+    }
+  }
+}
+.btns {
+  text-align: center;
+  button {
+    margin: 1rem;
+    &:hover {
+      background-color: greenyellow;
+      color: white;
+    }
+  }
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  width: 250px;
+}
+span {
+  color: $secondary-color;
+  border-bottom: 2px solid $secondary-color;
+}
+li {
+  list-style: none;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .civilization {
+    height: 100%;
+  }
+}
